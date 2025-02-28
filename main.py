@@ -8,10 +8,38 @@ from PIL import Image, ImageDraw, ImageEnhance
 import cv2
 import easyocr
 import numpy as np
+import json
 
 # Set up Chrome options to avoid prompts and auto-download files
 download_dir = os.path.join(os.getcwd(), 'downloads')  # Directory to store screenshots
 os.makedirs(download_dir, exist_ok=True)  # Ensure the directory exists
+
+screen_resolutions = {
+    "xxs": {
+        "height": 1000,
+        "width": 320
+    },
+    "xs": {
+        "height": 1000,
+        "width": 415
+    },
+    "sm": {
+        "height": 1000,
+        "width": 576
+    },
+    "md": {
+        "height": 1000,
+        "width": 768
+    },
+    "lg": {
+        "height": 1000,
+        "width": 992
+    }, 
+    "xl": {
+        "height": 1000,
+        "width": 1210
+    }
+}
 
 options = Options()
 options.headless = False  # Set to True if you don't want the browser window to appear
@@ -19,16 +47,7 @@ options.headless = False  # Set to True if you don't want the browser window to 
 # Start Chrome with the specified options
 driver = webdriver.Chrome(options=options)
 
-driver.set_window_size(576, 600)
-
-def capture_screenshot_of_element(element, screenshot_path):
-    """Capture a screenshot of the full banner element."""
-    try:
-        # Take a screenshot of the element and save it to the specified path
-        element.screenshot(screenshot_path)
-        print(f"Screenshot saved to {screenshot_path}")
-    except Exception as e:
-        print(f"Error capturing screenshot: {e}")
+driver.set_window_size(screen_resolutions["xl"]["width"], screen_resolutions["xl"]["height"])
 
 def detect_significant_regions(image_path, top_ignore=0):
     """Detect significant regions in the image while ignoring the top portion. 
@@ -291,3 +310,10 @@ try:
 finally:
     # Close the driver after all operations
     driver.quit()
+
+
+def main():
+    print("soemthing")
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,66 @@
+{
+    "prod": {
+        "enUS": {
+            "url": "www.melaleuca.com",
+            "categories": {
+                "supplements": {
+                    "supplements": "/productstore/supplements"
+                },
+                "cleaning-and-laundry": {
+                    "cleaning-and-laundry": "/producstore/cleaning-and-laundry",
+                    "cleaning": "/productstore/cleaning-and-laundry/cleaning",
+                    "laundry": "/productstore/cleaning-and-laundry/laundry"
+                },
+                "personal-care": {
+                    "personal-care": "/productstore/personal-care",
+                    "bath-body": "/productstore/personal-care/bath-body",
+                    "dental": "/productstore/personal-care/dental",
+                    "hair-care": "/productstore/personal-care/hair-care",
+                    "hand-soap-sanitizers": "/productstore/personal-care/hand-soap-sanitizers",
+                    "outdoor": "/productstore/personal-care/outdoor",
+                    "baby-care": "/productstore/personal-care/baby-care",
+                    "acne-prevention": "/productstore/personal-care/acne-prevention",
+                    "affinia": "/productstore/personal-care/affinia",
+                    "alloy": "/productstore/personal-care/alloy"
+                },
+                "beauty": {
+                    "beauty": "/productstore/beauty",
+                    "premium-skin-care": "/productstore/beauty/premium-skin-care",
+                    "color-cosmetics": "/productstore/beauty/color-cosmetics",
+                    "beauty-specials": "/productstore/beauty/beauty-specials",
+                    "hair-care": "/productstore/beauty/hair-care",
+                    "last-chance": "/productstore/beauty/last-chance",
+                    "fragranceperfume": "/productstore/beauty/fragranceperfume",
+                    "now-trending-seasonal-colors": "/productstore/beauty/now-trending-seasonal-colors"
+                },
+                "healthy-foods-and-drinks": {
+                    "healthy-foods-and-drinks": "/productstore/healthy-foods-and-drinks",
+                    "healthy-weight-protein": "/productstore/healthy-foods-and-drinks/healthy-weight-protein",
+                    "healthy-snacks": "/productstore/healthy-foods-and-drinks/healthy-snacks",
+                    "beverages": "/productstore/healthy-foods-and-drinks/beverages",
+                    "fiber-drink": "/productstore/healthy-foods-and-drinks/fiber-drink",
+                    "mints": "/productstore/healthy-foods-and-drinks/mints",
+                    "spices": "/productstore/healthy-foods-and-drinks/spices"
+                },
+                "medicines-and-treatments": {
+                    "medicines-and-treatments": "/productstore/medicines-and-treatments"
+                },
+                "home-fragrance": {
+                    "home-fragrance": "/productstore/home-fragrance"
+                },
+                "essential-oils": {
+                    "essential-oils": "/productstore/essential-oils"
+                }, 
+                "new-products": {
+                    "new-products": "/productstore/new-products"
+                },
+                "extra-savings": {
+                    "extra-savings": "/productstore/extra-savings",
+                    "limited-time": "/productstore/extra-savings/limited-time",
+                    "savings-packs": "/productstore/extra-savings/savings-packs",
+                    "outlet-store": "/productstore/extra-savings/outlet-store"
+                }
+            }
+        }
+    }    
+}
